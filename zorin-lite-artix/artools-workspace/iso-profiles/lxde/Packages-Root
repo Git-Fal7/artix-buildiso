@@ -1,0 +1,25 @@
+# loads by default common/packages-{base,apps,xorg}
+
+base-devel
+# LXDE
+lxsession
+lxde-common
+rofi
+
+xfwm4
+xfce4-panel
+xfce4-settings
+
+picom
+octopi
+xfdesktop
+
+connman-gtk
+#lightdm-gtk-greeter
+#light-locker
+lxdm
+git
+
+# GTK
+artix-archlinux-support
+leafpad
