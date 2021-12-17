@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# start pipewire
-/usr/bin/pipewire & /usr/bin/pipewire-pulse & /usr/bin/pipewire-media-session
-
-#start xfce4
-/usr/bin/startxfce4

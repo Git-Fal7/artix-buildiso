@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Zorin OS Lite Session
-Comment=Use this session to run Zorin OS Lite as your desktop environment
-Exec=/usr/bin/startzorinlite
-Icon=
-Type=Application
-DesktopNames=XFCE
