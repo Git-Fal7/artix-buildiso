@@ -1,25 +1,20 @@
 # loads by default common/packages-{base,apps,xorg}
 
 base-devel
-# LXDE
-lxsession
-lxde-common
-rofi
 
-xfwm4
-xfce4-panel
-xfce4-settings
+pipewire
+pipewire-alsa
+pipewire-pulse
+pipewire-jack
+pavucontrol
 
-picom
-octopi
-xfdesktop
+network-manager-applet
+lightdm-gtk-greeter
+light-locker
 
-connman-gtk
-#lightdm-gtk-greeter
-#light-locker
-lxdm
+xfce4
+xfce4-goodies
+
 git
 
-# GTK
 artix-archlinux-support
-leafpad
