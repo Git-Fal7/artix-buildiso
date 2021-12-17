@@ -1,0 +1,17 @@
+mkinitcpio-nfs-utils
+squashfs-tools
+nbd
+
+calamares-branding
+gparted
+
+artix-grub-live
+artix-grub-theme
+
+broadcom-wl
+
+intel-ucode
+amd-ucode
+artix-docs
+
+artix-live-@initsys@
