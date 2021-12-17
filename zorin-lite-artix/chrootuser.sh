@@ -13,9 +13,14 @@ yay -S opendoas-sudo pamac-nosnap mugshot
 ln -s /usr/bin/pamac /usr/bin/gnome-software
 ln -s /usr/bin/xfce4-appearance-settings /usr/bin/zorin-appearance
 
-echo removing xsessions
+echo removing stuff
 sudo rm -rf /usr/share/xsessions/xfce.desktop
 sudo rm -rf /usr/share/xsessions/zorin-os-lite.desktop
+
+sudo rm -rf /etc/xdg/xfce4
+sudo rm -rf /etc/xdg/Thunar
+sudo cp -r /etc/xdg/xdg-zorin-os-lite/xfce4 /etc/xdg/
+sudo cp -r /etc/xdg/xdg-zorin-os-lite/Thunar /etc/xdg/
 
 echo removing orphan packages
 sudo pacman -Rsn $(pacman -Qdtq)
