@@ -9,11 +9,14 @@ cd ~/yay
 echo now we make the yay pkg
 makepkg -si
 
-#echo after that, we install opendoas-sudo
-#yay -S opendoas-sudo
+echo after that, we install opendoas-sudo
+yay -S opendoas-sudo
 
-echo installing docklike st and brave
-yay -S st brave-bin pnmixer
+echo nows using my script to install zorin stuff
+git clone https://github.com/git-fal7/zorin-os-lite-arch
+cd zorin-os-lite-arch
+chmod +x ./install.sh
+./install.sh -artix
 
 echo removing orphan packages
 sudo pacman -Rsn $(pacman -Qdtq)
