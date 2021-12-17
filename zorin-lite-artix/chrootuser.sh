@@ -6,8 +6,12 @@ cd zorin-os-lite-arch/
 chmod +x ./install.sh
 ./install.sh -nosystemd
 
-echo after that, we install opendoas-sudo
-yay -S opendoas-sudo
+echo after that, we install opendoas, pamac-nosnap and mugshot
+
+yay -S opendoas-sudo pamac-nosnap mugshot
+
+ln -s /usr/bin/pamac /usr/bin/gnome-software
+ln -s /usr/bin/xfce4-appearance-settings /usr/bin/zorin-appearance
 
 echo removing orphan packages
 sudo pacman -Rsn $(pacman -Qdtq)
