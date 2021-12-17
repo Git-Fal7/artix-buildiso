@@ -15,7 +15,6 @@ ln -s /usr/bin/xfce4-appearance-settings /usr/bin/zorin-appearance
 
 echo removing stuff
 sudo rm -rf /usr/share/xsessions/xfce.desktop
-sudo rm -rf /usr/share/xsessions/zorin-os-lite.desktop
 
 sudo rm -rf /etc/xdg/xfce4
 sudo rm -rf /etc/xdg/Thunar
